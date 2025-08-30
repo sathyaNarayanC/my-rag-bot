@@ -27,7 +27,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
 # --- Config ---
 CSV_PATH = "data/ToTo.csv"
-PDF_PATH = "./test.pdf"
+PDF_PATH = "data/test.pdf"
 TEXT_PATH = "data/sg60-national-day.txt"
 PERSIST_DIR = "./chroma_db"
 COLLECTION_NAME = "my_docs"
